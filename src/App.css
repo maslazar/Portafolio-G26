@@ -1,0 +1,15 @@
+.navbar{
+    justify-content: space-between;
+    width: 280px;
+    align-items: center;
+    padding: 20px;
+}
+.true{
+    position: absolute;
+    background-color: white;
+    right: 0px;
+    margin-top: 55px;
+    border: 1px solid #5221E6;
+    width: 130px;
+    border-radius: 10px
+}
