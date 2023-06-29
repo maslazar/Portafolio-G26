@@ -1,15 +1,23 @@
-.navbar{
-    justify-content: space-between;
-    width: 330px;
-    align-items: center;
-    padding: 20px;
+.navbar {
+  justify-content: space-between;
+  width: 330px;
+  align-items: center;
+  padding: 20px;
 }
-.true{
-    position: absolute;
-    background-color: white;
-    right: 0px;
-    margin-top: 55px;
-    border: 1px solid #5221E6;
-    width: 130px;
-    border-radius: 10px
+.true {
+  position: absolute;
+  background-color: white;
+  right: 0px;
+  margin-top: 55px;
+  border: 1px solid #5221e6;
+  width: 130px;
+  border-radius: 10px;
+}
+body {
+  /* font-family: "Indie Flower", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Open Sans", sans-serif; */
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Roboto", sans-serif;
+  font-family: "Ysabeau Office", sans-serif; */
 }
