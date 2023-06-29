@@ -1,6 +1,5 @@
 import { useState } from "react";
-import menu from "./../assets/icons/gmail.png";
-
+import menu from "./../assets/icons/menu.png";
 function Navbar() {
   const [value, setValue] = useState(false);
   const viewMenu = () => {
