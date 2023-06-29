@@ -1,4 +1,5 @@
 import { useState } from "react";
+import menu from "./../assets/icons/menu.png";
 
 function Navbar() {
   const [value, setValue] = useState(false);
@@ -23,7 +24,7 @@ function Navbar() {
 
         </div>
         <button onClick={viewMenu} className="ml-auto pr-[20px] block sm:hidden">
-          <img src="./src/assets/icons/menu.png" alt="" />
+          <img src={menu} alt="" />
         </button>
 
       </div>
