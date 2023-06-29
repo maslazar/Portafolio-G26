@@ -1,5 +1,5 @@
 import { useState } from "react";
-import menu from "./../assets/icons/menu.png";
+import menu from "./../assets/icons/gmail.png";
 
 function Navbar() {
   const [value, setValue] = useState(false);
@@ -12,7 +12,7 @@ function Navbar() {
     <>
       <div className="bg-black flex">
         <div className="p-[20px]">
-          <h1 className="h-[24px] text-gray-50  ">Manuela SB</h1>
+          <h1 className="h-[24px] text-gray-50">Manuela SB</h1>
         </div>
 
         <div className={`lg:block md:block ml-auto pr-[20px] bg-[#181823] ${value} ` + (value ? 'block' : 'hidden')}>
