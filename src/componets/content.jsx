@@ -1,5 +1,5 @@
 import Navbar from "./navbar";
-
+import Foto from './src/assets/icons/phone.png';
 function Content() {
     return (
         <>
@@ -7,7 +7,7 @@ function Content() {
             <div className="p-[10px] md:p-[50px] lg:p-[50px] bg-black text-white">
                 <div className="flex flex-wrap">
                     <div className="justify-center flex bg-[#181823] w-full sm:w-1/1 md:w-1/2 lg:w-1/2 ">
-                        <img className="p-[40px] rounded-[59px] h-[400px]" src="./src/assets/icons/Foto.jpeg" alt="" />
+                        <img className="p-[40px] rounded-[59px] h-[400px]" src={Foto} alt="" />
                     </div>
                     <div id="sobremi" className="block mt-auto mb-auto text-center sm:w-1/1 md:w-1/2 lg:w-1/2">
                         <h1 className="font-bold mt-[20px]">Mi nombre es Manuela Salazar </h1>
