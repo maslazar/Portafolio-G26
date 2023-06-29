@@ -1,5 +1,8 @@
 import Navbar from "./navbar";
 import Foto from "./../assets/icons/Foto.jpeg";
+import phone from "./../assets/icons/phone.png";
+import github from "./../assets/icons/github.png";
+import gmail from "./../assets/icons/gmail.png";
 function Content() {
     return (
         <>
@@ -45,11 +48,12 @@ function Content() {
                 <div id="contacto" className="mt-[30px]">
                     <div>
                         <h2 className="text-[20px] font-bold">contacto</h2>
-                        <a target='_blank' rel="noreferrer" href="https://api.whatsapp.com/send/?phone=%2B573158111531&text&type=phone_number&app_absent=0" ><img src="./src/assets/icons/phone.png" alt="" /></a>
-
-                        <a target='_blank' rel="noreferrer" href="https://github.com/maslazar"><img src="./src/assets/icons/github.png" alt="" /></a>
+                        <a target='_blank' rel="noreferrer" href="https://api.whatsapp.com/send/?phone=%2B573158111531&text&type=phone_number&app_absent=0" >
+                            <img src={phone} alt="" /></a>
+                        <a target='_blank' rel="noreferrer" href="https://github.com/maslazar">
+                            <img src={github} alt="" /></a>
                         <p className="flex">
-                            <img src="./src/assets/icons/gmail.png" alt="" className="mr-[10px]" />maslazar1995@gmail.com
+                            <img src={gmail} alt="" className="mr-[10px]" />maslazar1995@gmail.com
                         </p>
                         <h3 className="text-center mt-[10px]">Desarrollado por <strong>Manuela Salazar Becerra</strong></h3>
                     </div>
