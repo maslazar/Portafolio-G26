@@ -1,5 +1,5 @@
 import Navbar from "./navbar";
-import Foto from './src/assets/icons/phone.png';
+import Foto from '../assets/icons/Foto.png';
 function Content() {
     return (
         <>
